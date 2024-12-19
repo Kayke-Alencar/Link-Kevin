@@ -1,0 +1,178 @@
+.Container
+{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.It1
+{
+    position: relative;
+    margin-top: 15px;
+    width: 94%;
+    height: 100%;
+}
+
+button{
+    position: fixed;
+    z-index: 1;
+
+    width: 40PX;
+    height: 40px;
+
+    background: none;
+    border: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+/*.btn-it1, .btn-it2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 28%);
+
+
+.Sino
+{
+    display: none;
+} 
+
+}*/
+
+
+
+
+  
+
+.Menu
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 28%);
+
+    
+    right: 0;
+}
+
+.Voltar
+{
+    width:24px;
+}
+
+i{
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+nav{                  
+    /*o css dá prioridade para clases, o estilo sera aplicada 
+    pela clase nav-aberta quando ela for aplicada pelo js */
+
+    display: none;  
+}
+
+.nav-aberta{
+    position: absolute;
+    display: inline-block
+;
+    width: 100vw;
+    height: 70%;
+
+    background-color: #ffffff;
+    bottom: 0;
+    z-index: 2; /*A nav tem que estar acima do icones de whatsssap e insta do arquivo index.css, linha 75 */
+    background-image: linear-gradient(125deg, #ffffff, #00000000);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+nav section
+{
+    display: flex;
+    justify-content: end;
+}
+
+nav section img 
+{
+    width: 14px;
+    margin-right: 30px;
+    margin-top: 20px;
+    opacity: 60%;
+}
+
+
+
+
+
+
+
+.Content-nav
+{
+    width: fit-content; /*Se alinha com o tamho do conteudo.*/
+    margin: auto;
+    margin-top: 37px;
+}
+
+nav div img
+{
+    width: 360px;
+    margin-top: 15px;
+    border-radius: 20px;
+    opacity: 80%;
+
+}
+
+.nav-aberta ul{
+    list-style: none;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+li{
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+li a{
+    text-decoration: none;
+  
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+
+    font-family: none;
+}

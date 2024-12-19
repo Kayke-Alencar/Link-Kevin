@@ -1,0 +1,95 @@
+header
+{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.Sec1
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.kevin
+{
+    border-radius: 100%;
+
+    margin-bottom: 10px;
+    width: 96px;
+    height: 96p;
+}
+
+h1
+{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+h2
+{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: sans-serif;;
+    color: white;
+}
+
+
+.Redes
+{
+    text-align: center;
+    margin-top: 17px;
+}
+
+.Redes img
+{
+    width: 30px;
+    padding: 8px;
+}
+
+
+.Buttons
+{
+    margin-top: 20px;
+}
+
+.Btn
+{
+    position: relative; /*  o position relative  neste caso nos permite usar o position absolute do elemento filho de maneira a respeitar o elemento pai */
+    display: flex;
+    align-items: center; /*centralixar na vertical*/
+    justify-content: start; /*os el filho serao mostrados no comeco do el pai */
+
+    width: 100%;
+    height: 70px;
+    margin-bottom: 15px;
+
+    border: white, solid 1px;
+    border-radius: 46px;
+}
+
+.Icon-btns
+{
+    z-index: 1; /*foi precisso isso para que possivel clicar no <a></a> e acessar o link*/
+    margin-left: 5px;
+}
+
+.Icon-btns img
+{
+    width: 25px;
+    padding: 8px;
+}
+
+.Text
+{
+    position: absolute; /*Linha 60*/
+    width: 100%;
+    text-align: center; 
+
+
+    color: white;
+    font-family: math;
+    font-size: 16px;
+}   
