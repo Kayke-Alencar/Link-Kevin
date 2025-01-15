@@ -108,3 +108,24 @@ h2
     font-family: math;
     font-size: 16px;
 }   
+
+
+
+
+@media(min-width:800px){
+    main
+    {
+        width: 53%;
+    }
+    
+}
+
+
+@media(min-width:1024px){
+    main
+    {
+        width: 33%;
+        
+    }
+    
+}
